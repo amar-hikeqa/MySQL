@@ -1,8 +1,7 @@
     app:
         name: MySQL
         code: mysql
-        notify: appzdev@cloudbourne.co
-
+        notify: amaregouda@hikeqa.com
     build:
         version: 5.7
         env: DEV
@@ -11,7 +10,7 @@
         image_template: mysql-5.7
 
     deploy:
-        context: alpha/DEV
+        context: amar-hikeqa/DEV
         type: statefulset
         replicas: 1
         ingress: none
