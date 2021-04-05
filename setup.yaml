@@ -23,4 +23,4 @@ restore:
            file: sql/accountdb.sql
         user: root
         password: $MYSQL_SPRINGBOOTWEB_PASSWORD
-        token: 20210405-0756
+        token: 20210405-0906
