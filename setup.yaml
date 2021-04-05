@@ -18,9 +18,9 @@ acl:
     access: ALL  
     
 restore:
-  - database: springboot_web
-    source:
-       url: 'https://www.ecloudcontrol.com/wp-content/uploads/2020/12/accountdb_20201210.zip'
-    user: root
-    password: $MYSQL_ROOT_PASSWORD_KEY  # password of the 'user' above.
-    token: 20210318-1843  # The restore token to be validated before restoring the database. (Same as TEARDOWN_TOKEN)
+      - database: springboot_web
+        source:
+           file: sql/accountdb.sql
+        user: root
+        password: $MYSQL_SPRINGBOOTWEB_PASSWORD
+        token: 20210405-0756
