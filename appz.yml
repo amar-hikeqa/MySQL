@@ -28,7 +28,7 @@
         size: 5Gi
 
     properties:
-        revision : 2822
+        revision : 2
         MYSQL_ROOT_PASSWORD:
           vault: MYSQL_ROOT_PASSWORD_KEY
         MYSQL_SPRINGBOOTWEB_PASSWORD:
